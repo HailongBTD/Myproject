@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    display: flex;
+}
+.menu div{
+    padding: 12px 24px;
+    color: white;
+}
+.menu div:hover{
+    background-color: #ccc;
+    color: black;
+    cursor: pointer;
+}
+.drop{
+    position: relative;
+}
+.subMenu{
+    position: absolute;
+    list-style: none;
+    left: 0;
+    bottom: 0;
+    transform: translateY(100%);
+    padding: 8px 16px;
+}
+.header{
+    display: flex;
+    background: black;    
+    justify-content: space-between;
+}
+.search i{
+    color: white;
+    padding: 12px 24px;
+    height: 100%;
+    cursor: pointer;
+}
+.search i:hover{
+    background: red;
+}
+.mobile {
+    display: none;
+}
+.fa-bars.fas{
+    display: none;
+}
+@media screen and (max-width : 700px) {
+    .PC{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .fa-search.fas  {
+        display: none;
+    }
+    .fa-bars.fas{
+        display: block;
+    }
+}
+
