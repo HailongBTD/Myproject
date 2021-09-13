@@ -1,0 +1,347 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+html body {
+  font-size: 15px;
+  background-color: #f1f1f1;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: inherit
+  
+}
+.fontOswald{
+  font-family: "Oswald", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400px;
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+}
+.headerBlog {
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: space-between;
+}
+.main_menu {
+  display: flex;
+}
+.padding816 {
+  padding: 8px 16px;
+}
+.main_menu a {
+  cursor: pointer;
+}
+.main_menu a:hover {
+  background-color: #ccc;
+  color: black;
+}
+.mainsearch:hover {
+  background-color: #ccc;
+  color: black;
+}
+.contentBlog {
+  margin: 0 auto;
+}
+.containerone h1 {
+  font-size: 48px;
+}
+.bgwhite {
+  background-color: white !important;
+}
+.containerone {
+  text-align: center;
+  padding: 48px 16px;
+}
+.margin10 {
+  margin: 10px 0;
+}
+.btn-light {
+  background-color: #fff;
+  opacity: 0.6;
+  padding: 12px 24px;
+  border: 0;
+  border-radius: 2px;
+}
+.btn-light:hover {
+  background-color: #ccc;
+  opacity: 1;
+}
+.bannerBlog {
+  position: relative;
+}
+.bannerJane {
+  max-width: 100%;
+}
+.titleBlog {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  padding: 12px 24px;
+}
+.titleBlog {
+  letter-spacing: 4px;
+}
+.containertwo {
+  display: flex;
+  border: 1px solid #ccc;
+  padding: 8px 16px;
+  background-color: #f1f1f1;
+}
+.titleheading {
+  width: 66.67%;
+}
+.titleheadingone {
+  margin: 16px;
+  padding: 12px 24px;
+  background-color: white;
+}
+.titleheadingone h3,
+h5 {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+
+}
+.titleheadingone img {
+  padding: 16px 0;
+  width: 100%;
+}
+.specialText {
+  background: #000;
+  color: white;
+  padding: 0 8px;
+}
+.titleheadingone p {
+  text-align: justify;
+
+  margin: 15px 0;
+}
+.comunication {
+  display: flex;
+  justify-content: space-between;
+}
+.comunication button {
+  border-radius: 2px;
+  font-weight: 400;
+}
+
+.btn-like {
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+.btn-rep {
+  color: #fff;
+  background-color: #000;
+  border: none;
+  padding: 8px 16px;
+}
+button b {
+  font-family: "Open Sans", sans-serif;
+}
+.colorwhite {
+  background-color: white;
+  color: black;
+  padding: 0 8px;
+  margin-left: 5px;
+}
+.comunication .btn-like:hover {
+  color: black;
+  background-color: #ccc;
+}
+.comunication .btn-rep:hover {
+  color: black;
+  background-color: #ccc;
+}
+.introduceBlog {
+  width: 33.33%;
+}
+.introductiontwo {
+  margin: 16px;
+}
+
+.introductiontwo img {
+  width: 100%;
+  filter: grayscale(75%);
+}
+.introduction {
+  background-color: black;
+  padding: 0 16px;
+  color: white;
+}
+.introduction h4 {
+  padding: 10px 0;
+  height: fit-content;
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  
+}
+.description {
+  padding: 10px 0;
+  margin: 0;
+}
+.popularpost {
+  background-color: white;
+  margin: 16px;
+}
+.popularpostmenu {
+  padding: 8px 16px;
+  background-color: black;
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+.popularpostmenu h4{
+  font-size: 20px !important;
+
+}
+.guest {
+  padding: 16px;
+  display: flex;
+  border-bottom: 1px solid #ddd;
+}
+.guest img {
+  width: 50px;
+  margin-right: 16px;
+}
+.guest:hover {
+  background: #ccc;
+}
+.adhere {
+  padding: 16px 16px;
+  margin: 16px 0;
+  background: #ccc;
+}
+.adhere img {
+  width: 100%;
+}
+.tagshere {
+  padding: 0 16px;
+}
+.tagshere p {
+  margin: 15px 0;
+}
+.maintags {
+  background-color: #000;
+  color: white;
+  padding: 0 8px;
+  margin-bottom: 16px;
+  display: inline-block;
+
+}
+
+.subtags {
+  background-color: #f1f1f1;
+  padding: 0 8px;
+  margin-bottom: 16px !important;
+  font-size: 12px;
+  display: inline-block;
+
+}
+.maininspiration{
+  padding: 0 8px;
+  background-color: white;
+  display: flex;
+}
+.inspiration{
+  margin: 16px;
+}
+.inspirationimg{
+  width: 50%;
+  padding: 0 8px;
+}
+.inspirationimg p{
+  margin: 15px 0;
+}
+.imgmini{
+  width: 100%;
+}
+.linkfolow{
+  padding: 8px 16px;
+  background-color: white;
+  font-size: 24px;
+}
+.linkfolow i:hover{
+  opacity: 0.60;
+}
+.mainsubscribe{
+  padding: 0.1px 16px;
+  background-color: white;
+}    
+.mainsubscribe input{
+  border: 1px solid #ccc;
+  padding: 8px ;
+  width: 100%;
+  margin-bottom: 15px ;
+  
+}
+.mainsubscribe button{
+  background-color: #f44336;
+  padding: 8px 16px;
+  border: none;
+  width: 100%;
+  color: white;
+  margin-bottom: 15px ;
+
+}
+.mainsubscribe button:hover{
+  background-color: #ccc;
+  color: black;
+}
+.footerBlog{
+  background-color: #616161;
+  padding: 32px ;
+}
+.footerBlog button{
+  padding: 12px 24px;
+  border: 0;
+  color: white;
+  background: #000;
+  margin-bottom: 16px;
+}
+.footerBlog button:hover{
+  background-color: #ccc;
+  color: black;
+}
+button i{
+  margin-right: 16px;
+}
+.footerBlog p{
+  color: white;
+}
+.link{
+  color: white;
+}
+.mobile{
+  display: block;
+}
+
+@media screen  and (max-width:583px) {
+  .PC{
+    display: none;
+  }
+  .containertwo{
+    flex-direction: column;
+  }
+  .titleheading{
+    width: 100%;
+  }
+  .introduceBlog{
+    width: 100%;
+  }
+}
