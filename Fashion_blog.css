@@ -43,10 +43,10 @@ hr {
 .padding816 {
   padding: 8px 16px;
 }
-.main_menu a {
+.main_menu div {
   cursor: pointer;
 }
-.main_menu a:hover {
+.main_menu div:hover {
   background-color: #ccc;
   color: black;
 }
